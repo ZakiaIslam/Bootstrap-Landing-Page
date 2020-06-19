@@ -1,0 +1,22 @@
+.carousel-caption {
+
+    bottom: 298px;
+
+}
+
+.getting{
+    background: url(../image/1.jpg);
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+.getting-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(200,53,69,.5);
+}
+
+.card{
+    box-shadow: 10px 10px #F5F5DC;
+}
