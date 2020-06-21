@@ -1,29 +1,3 @@
-<!--<!dcotype html>
-    <html lang="en">
-    <head>
-    //Regular meta tags
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
-    //Bootstrap CSS
-    <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>AAZ</title>
-</head>
-
-<body>
-    <ul class="list-unstyled list-inline">
-        <li class="list-inline-item text-secondary">AAAA</li>
-        <li class="list-inline-item text-secondary">BBBB</li>
-        <li class="list-inline-item text-secondary">CCCC</li>
-        <li class="list-inline-item text-secondary">DDDD</li>
-    </ul>
-
-    <img src="image/1.jpg" class="img-fluid" alt="Responsive Image">
-</body>
-</htm>-->
-
-
 <!doctype html>
 
 
@@ -40,30 +14,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <title>AAZ IT Company</title>
 </head>
 
 <body>
-    <div id="main-manu" class="fixed-top bg-light navbar navbar-expand-lg navbar-light">
-        <div class="container">
+    <div id="main-manu" class="main-menu fixed-top ">
+       
+           <nav class="bg-light navbar navbar-expand-lg navbar-light">
+            <div class="container">
             <a class="navbar-brand" href="#">AZZ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sevice">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+               </div>
+            </nav>
 
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sevice">Service</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
     </div>
 
 
@@ -120,12 +103,13 @@
 
 
     <div id="about" class="p-5 text-center">
+       <div class="about-box">
         <div class="container">
             <h2 class="display-4 pb-3 font-weight-bold">About Us</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="about-content card p-3">
-                        <img src="image/p1.jpg" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px">
+                        <img src="image/p1.jpg" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px" alt="image_pic">
                         <i class="fas fa-hotel"></i>
                         <div class="card-body">
 
@@ -137,25 +121,26 @@
                 </div>
                 <div class="col-md-4">
                     <div class="about-content card p-3">
-                        <img src="image/p2.jpg" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px">
+                        <img src="image/p2.jpg" class="rounded-circle mx-auto d-block" style="height: 150px; width: 150px" alt="image_pic">
                         <i class="fas fa-hotel"></i>
                         <div class="card-body">
-                        <h4 class="card-title">Web Design</h4>
-                        <p class="card-text">BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework .</p>
+                            <h4 class="card-title">Web Design</h4>
+                            <p class="card-text">BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework .</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="about-content card p-3">
-                        <img src="image/p3.jpg" style="height: 150px; width: 150px" class="rounded-circle mx-auto d-block">
+                        <img src="image/p3.jpg" style="height: 150px; width: 150px" class="rounded-circle mx-auto d-block" alt="image_pic">
                         <i class="fas fa-hotel"></i>
                         <div class="cad-body">
-                        <h4 class="card-title">Web Design</h4>
-                        <p class="card-text">BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive.p</p>
-                    </div>
+                            <h4 class="card-title">Web Design</h4>
+                            <p class="card-text">BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Get started with Bootstrap, the world’s most popular framework for building responsive.p</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 
@@ -172,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <img class="img-fluid m-5 rounded-circle" src="image/a.jpg">
+                    <img class="img-fluid rounded-circle" src="image/a.jpg" alt="image_pic">
 
                 </div>
             </div>
@@ -188,10 +173,10 @@
                     <div class="col-md-12">
                         <h4 class="md-5 text-center display-4 font-weight-bold">GET IN TOUCH</h4>
                         <p class="text-center">Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with BootstrapCDN and a template starter page.Get started with Bootstrap.</p>
-                        <h3 class="md-5 text-center font-weight-bold pb-2">Say Hello !</h4>
+                        <h3 class="md-5 text-center font-weight-bold pb-2">Say Hello !</h3>
                             <form class="form-inline justify-content-center">
-                                <input class="form-control mr-2" type="name" placeholder="Name">
-                                <input class="form-control mr-2" type="mail" placeholder="Email">
+                                <input class="form-control mr-2" type="text" placeholder="Name">
+                                <input class="form-control mr-2" type="email" placeholder="Email">
                                 <button type="button" class="btn btn-primary">SUBMIT</button>
                             </form>
 
